@@ -45,11 +45,7 @@ const Skills = () => {
         </div>
         <div className="scroll flex flex-col justify-center items-center">
           <div className="mb-6">
-          <SkillsComponent direction='left'></SkillsComponent>
-          </div>
-          <div className="mb-10">
-          <SkillsComponent direction='right'></SkillsComponent>
-
+          <SkillsComponent></SkillsComponent>
           </div>
         </div>
       </div>
