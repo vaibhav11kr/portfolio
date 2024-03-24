@@ -62,17 +62,3 @@ export const projectsData = [
   },
 ];
 
-export const projectsNav = [
-  {
-    name: "All",
-  },
-  {
-    name: "Web",
-  },
-  {
-    name: "PWA",
-  },
-  {
-    name: "DSA",
-  },
-];

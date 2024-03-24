@@ -2,95 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Variable CSS */
-:root{
-  /* colors */
-  /* --body-background-color: #141820; */
-  --body-background-color: #36454F;
-
-  --nav-bg-color:#1F232B;
-  nav-text-color:#DCDDDE;
-  text-color-dark:#2D3137;
-  text-color-mild:#656668;
-  text-color-light:#A4A4A4;
-  
-  --title-color: #36454F;
-  --special-color: #B7B7B7;
-  --highlight-color: #1A2421;
-  --title-color-dark: #030504;
-  --text-color:  #555555;
-  --container-color: #DDDDDD;
-  
-  /* Font & Typography */
-  --body-font:"Poppins", sans-serif;
-}
-
 *{
   margin: 0px;
   padding: 0px;
   /* box-sizing: border-box; */
-}
-
-@keyframes marquee {
-  0% { transform: translateX(100%); }
-  100% { transform: translateX(-100%); }
-}
-
-@-webkit-keyframes marquee {
-  0% { -webkit-transform: translateX(100%); }
-  100% { -webkit-transform: translateX(-100%); }
-}
-
-@-moz-keyframes marquee {
-  0% { -moz-transform: translateX(100%); }
-  100% { -moz-transform: translateX(-100%); }
-}
-
-@-o-keyframes marquee {
-  0% { -o-transform: translateX(100%); }
-  100% { -o-transform: translateX(-100%); }
-}
-
-.animate-marquee {
-  animation: marquee 30s linear infinite;
-}
-.marquee-container {
-  display: flex;
-  width: 100%;
-  overflow: hidden;
-}
-
-.marquee {
-  display: flex;
-  animation-duration: 20s;
-  animation-timing-function: linear;
-  animation-iteration-count: infinite;
-}
-
-.marquee-left {
-  animation-name: marqueeLeft;
-}
-
-.marquee-right {
-  animation-name: marqueeRight;
-}
-
-@keyframes marqueeLeft {
-  0% {
-    transform: translateX(100%);
-  }
-  100% {
-    transform: translateX(-100%);
-  }
-}
-
-@keyframes marqueeRight {
-  0% {
-    transform: translateX(-100%);
-  }
-  100% {
-    transform: translateX(100%);
-  }
 }
 
 

@@ -3,9 +3,9 @@ import bg from "../../assets/background.avif";
 import profile from "../../assets/pic.png"
 const Hero = () => {
   return (
-    <div className="flex flex-col items-center w-screen">
-      <div  className="flex flex-col justify-center items-center md:mt-2 w-max">
-        <h1 className="absolute animate-typing overflow-hidden whitespace-nowrap border-r-4 border-r-white pr-1 font-bold text-[#fbfaf5] text-3xl md:text-8xl top-24 hover:bg-gradient-to-r hover:from-[#C33764] hover:to-[#1D2671] hover:bg-clip-text hover:text-transparent transition-all ease-in-out">Software Developer</h1>
+    <div className="flex flex-col items-center w-screen relative">
+      <div  className="flex flex-col justify-center items-center md:mt-2 w-max relative">
+        <h1 className="absolute animate-typing overflow-hidden whitespace-nowrap border-r-4 border-r-white pr-1 font-bold text-[#fbfaf5] text-3xl md:text-8xl top-4 md:top-10 hover:bg-gradient-to-r hover:from-[#C33764] hover:to-[#1D2671] hover:bg-clip-text hover:text-transparent transition-all ease-in-out">Software Developer</h1>
       <img src={bg} alt="profile_bg" className="object-cover h-24 w-[100vw] md:h-52 md:w-[82vw] md:rounded-3xl"/>
       <img src={profile} alt="profile_pic" className=" h-20 w-20 -mt-10 md:h-32 md:w-32 md:-mt-16"/>
       </div>
