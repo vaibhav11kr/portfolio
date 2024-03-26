@@ -1,7 +1,7 @@
 import React, { useRef, useEffect } from "react";
 import SkillsData from "../data/SkillsData";
 
-const SkillsComponent = ({ direction }) => {
+const SkillsComponent = () => {
   const logosRef = useRef(null);
 
   useEffect(() => {
