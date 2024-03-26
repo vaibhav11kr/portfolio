@@ -80,7 +80,7 @@ const Navbar = () => {
       {/* LOGO */}
       <div className="md:flex md:w-1/3 md:justify-start">
         <Link
-          href="/"
+          to="/"
           className="text-sm bg-black rounded-md p-1 flex items-center justify-center"
         >
           <span className="text-white mr-1 ml-1">Vaibhav</span>
@@ -143,7 +143,7 @@ const Navbar = () => {
                 key={link.title}
               >
                 <Link
-                  href={link.url}
+                  to={link.url}
                   onClick={() => setOpen((prev) => !prev)}
                   className="hover:text-gray-400 text-extrabold"
                 >
