@@ -63,20 +63,20 @@ const Projects = () => {
                   className="w-full h-40 object-cover rounded-t-lg"
                 />
                 <div className="p-4">
-                  <h3 className="text-lg font-bold mb-2">{project.title}</h3>
-                  <p className=" mb-4 text-base">
+                  <h3 className="text-base font-bold mb-2">{project.title}</h3>
+                  <p className=" mb-4 text-sm font-normal">
                     {project.description}
                   </p>
-                  <div className="flex flex-wrap">
+                  {project.technologies && <div className="flex flex-wrap">
                     {project.technologies.map((tech, index) => (
                       <span
                         key={index}
-                        className="bg-gray-200 text-gray-700 px-2 py-1 text-sm rounded-full mr-2 mb-2"
+                        className="bg-gray-200 text-gray-700 px-2 py-1 text-xs rounded-full mr-2 mb-2"
                       >
                         {tech}
                       </span>
                     ))}
-                  </div>
+                  </div>}
                   <div className="flex justify-between mt-4">
                     <a
                       href={project.liveLink}
@@ -87,7 +87,7 @@ const Projects = () => {
                       <Link />
                       Visit
                     </a>
-                    <a
+                    {project.githubLink && <a
                       href={project.githubLink}
                       target="_blank"
                       rel="noopener noreferrer"
@@ -95,7 +95,7 @@ const Projects = () => {
                     >
                       Code
                       <BsGithub />
-                    </a>
+                    </a>}
                   </div>
                 </div>
               </motion.div>

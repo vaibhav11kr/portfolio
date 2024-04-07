@@ -9,66 +9,62 @@ import Work7 from "../../assets/work7.png";
 const projectsdata = [
   {
     id: 1,
-    title: "Project 1",
-    description: "Description of project 1.",
+    title: "Portfolio 1.0",
+    description: "This was the first portfolio that I created using react and custom css.",
     image: Work1,
-    technologies: ["React", "Node.js", "MongoDB"],
+    technologies: ["React", "CSS", "HTML"],
     liveLink: "https://vaibhavpersonal.netlify.app/",
-    githubLink: "https://github.com/example/project1"
+    githubLink: "https://github.com/vaibhav11kr/Portfolio1.0"
   },
   {
     id: 2,
-    title: "Project 2",
-    description: "Description of project 2.",
+    title: "Chat app",
+    description: "Built using ChatEngine API",
     image: Work2,
-    technologies: ["Vue.js", "Express", "Firebase"],
+    technologies: ["React", "Tailwind", "ChatEngine API"],
     liveLink:"https://vaibhavchat.netlify.app/",
-    githubLink: "https://github.com/example/project2"
+    githubLink: "https://github.com/vaibhav11kr/chat-app"
   },
   {
     id: 3,
-    title: "Project 3",
-    description: "Description of project 3.",
+    title: "Weather App",
+    description: "Built using Openweather API",
     image: Work3,
-    technologies: ["Angular", "ASP.NET Core", "SQL Server"],
+    technologies: ["React", "Tailwind", "OpenWeather API"],
     liveLink: "https://vaibhavweather.netlify.app/",
-    githubLink: "https://github.com/example/project3"
+    githubLink: "https://github.com/vaibhav11kr/Weather-APP"
   },
   {
     id: 4,
-    title: "Project 4",
-    description: "Description of project 4.",
+    title: "Photography",
+    description: "Built with React",
     image: Work4,
     technologies: ["React", "Node.js", "MongoDB"],
     liveLink: "https://vaibhavphotography.netlify.app/",
-    githubLink: "https://github.com/example/project4"
+    githubLink: "https://github.com/vaibhav11kr/hypersonicphotogrphy"
   },
   {
     id: 5,
-    title: "Project 5",
-    description: "Description of project 5.",
+    title: "Clock",
+    description: "Cool Live clock",
     image: Work5,
     technologies: ["Vue.js", "Express", "Firebase"],
     liveLink: "https://vaibhavclock.netlify.app/",
-    githubLink: "https://github.com/example/project5"
+    githubLink: "https://github.com/vaibhav11kr/Live_Clock"
   },
   {
     id: 6,
-    title: "Project 6",
-    description: "Description of project 6.",
+    title: "Leetcode",
+    description: "700+ Questions",
     image: Work6,
-    technologies: ["Angular", "ASP.NET Core", "SQL Server"],
-    liveLink: "https://leetcode.com/Empire200/",
-    githubLink: "https://github.com/example/project6"
+    liveLink: "https://leetcode.com/vaibhav11kr/",
   },
   {
     id: 7,
-    title: "Project 7",
-    description: "Description of project 7.",
+    title: "Geeks Practice Board",
+    description: "150+ Questions",
     image: Work7,
-    technologies: ["React", "Node.js", "MongoDB"],
     liveLink:"https://auth.geeksforgeeks.org/user/vaibhavkumar9693/practice/",
-    githubLink: "https://github.com/example/project7"
   },
   // Add more projects as needed
 ];

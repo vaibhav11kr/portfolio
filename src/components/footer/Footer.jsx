@@ -12,15 +12,15 @@ const Footer = () => {
     <section className="bg-[#101010] m-4 rounded-xl md:h-auto border border-gray-200 border-opacity-25 flex flex-col items-center text-[#F5FEFD] ">
       <div className="max-w-screen-xl p-4 mx-auto overflow-hidden sm:px-4 lg:px-8">
         <div className="flex justify-center space-x-4">
-          <a href="#" className="text-gray-400 hover:text-gray-500">
+          <a href="https://www.linkedin.com/in/vaibhavkumar11/" className="text-gray-400 hover:text-gray-500">
             <span className="sr-only">Facebook</span>
             <Linkedin className="h-4" />
           </a>
-          <a href="#" className="text-gray-400 hover:text-gray-500">
+          <a href="https://github.com/vaibhav11kr" className="text-gray-400 hover:text-gray-500">
             <span className="sr-only">Instagram</span>
             <Github className="h-4" />
           </a>
-          <a href="#" className="text-gray-400 hover:text-gray-500">
+          <a href="https://www.instagram.com/_kumar.vaibhav/" className="text-gray-400 hover:text-gray-500">
             <span className="sr-only">Twitter</span>
             <Instagram className="h-4" />
           </a>
