@@ -10,6 +10,7 @@ const Hero = () => {
   const scrollToNextSection = () => {
     nextSectionRef.current.scrollIntoView({ behavior: "smooth" });
   };
+
   return (
     <div className="flex flex-col items-center w-screen relative">
       <motion.div
@@ -39,7 +40,7 @@ const Hero = () => {
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ duration: 1, delay: 1 }}
-        className="h-[50vh] md:h-[40vh] w-[85vw] flex flex-col justify-center items-center z-0 text-[#fbfaf5] font-plus-jakarta bold text-center "
+        className="h-[50vh] md:h-[40vh] w-[85vw] flex flex-col justify-center items-center z-0 text-[#B4B4B8] font-plus-jakarta bold text-center "
       >
         {/* Typing animation for "Software Developer" */}
         <motion.h1
@@ -62,15 +63,16 @@ const Hero = () => {
         <motion.h1
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
+          whileHover={{ scale: 1.2, rotate: [0, 10, -10, 10, -10, 0]}}
           transition={{ duration: 1 }}
-          className="text-3xl md:text-5xl font-plus-jakarta bold w-fit bg-[#343434] p-3 rounded-xl hover:bg-gradient-to-r hover:from-[#C33764] hover:to-[#1D2671] transition-all ease-in-out"
+          className="text-3xl md:text-5xl font-plus-jakarta bold w-fit bg-[#101010] p-3 rounded-xl hover:bg-gradient-to-r hover:from-[#C33764] hover:to-[#1D2671] transition-all ease-in-out"
         >
           <motion.span
-            whileHover={{ scale: 1.2, transition: { duration: 0.3 } }}
+            whileHover={{ scale: 1.2, rotate: [0, 10, -10, 10, -10, 0], transition: { duration: 0.3 } }}
           >
             Hey I'm Vaibhav Kumar
           </motion.span>
-        </motion.h1>
+        </motion.h1> 
         <motion.h3
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
@@ -106,20 +108,24 @@ const Hero = () => {
         className="absolute bottom-5 flex flex-col items-center cursor-pointer"
         onClick={scrollToNextSection}
       >
-        <svg
+        <motion.svg
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ duration: 1 }}
           xmlns="http://www.w3.org/2000/svg"
           className="h-8 w-8 text-white animate-bounce"
           fill="none"
           viewBox="0 0 24 24"
           stroke="currentColor"
+          whileHover={{ scale: 1.1 }}
         >
-          <path
+          <motion.path
             strokeLinecap="round"
             strokeLinejoin="round"
             strokeWidth={2}
             d="M19 14l-7 7m0 0l-7-7m7 7V3"
           />
-        </svg>
+        </motion.svg>
       </div>
       {/* Invisible div to scroll to */}
       <div ref={nextSectionRef}></div>

@@ -5,7 +5,7 @@ import Education from '../education/Education';
 
 const About = () => {
   return (
-    <div className=" bg-[#121416] w-screen flex flex-col justify-center items-center ">
+    <div className="w-screen flex flex-col justify-center items-center gap-14">
         <Me></Me>
         <Experience></Experience>
         <Education></Education>

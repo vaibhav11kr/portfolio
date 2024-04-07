@@ -23,7 +23,7 @@ module.exports = {
             visibility: "hidden"
           },
           "100%": {
-            width: "65vw"
+            width: "60vw"
           }
         },
         blink: {

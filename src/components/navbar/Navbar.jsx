@@ -93,7 +93,7 @@ const Navbar = () => {
       <div className="hidden md:flex md:gap-4 md:w-1/3 md:justify-between">
   {links.map((link) => {
     return (
-      <Link to={link.url} onClick={() => { setOpen((prev) => !prev) }} className="hover:text-gray-400 text-extrabold" key={link.url}>{link.title}</Link>
+      <Link to={link.url} onClick={() => { setOpen((prev) => !prev) }} className="hover:text-gray-400 font-extrabold text-[#F5FEFD]" key={link.url}>{link.title}</Link>
     );
   })}
 </div>

@@ -27,15 +27,19 @@ const Skills = () => {
     <motion.div
       initial={{ opacity: 0, y: 50 }}
       animate={controls}
-      className="shadow-lg mb-16 "
+      className="shadow-lg mb-16 mt-16"
     >
-      <div className="bg-[#101010] m-2 rounded-2xl  w-[90vw] md:w-[92vw] md:h-auto border border-gray-200 border-opacity-25 flex flex-col items-center text-white">
-        <h2 className="text-3xl font-mono hover:underline mt-8 mb-8">
-          Skills
-        </h2>
-        <div className="flex flex-col md:flex-row w-full h-fit items-center mb-8 md:items-start md:justify-evenly text-xs md:text-justify font-thin p-4">
+      <div className="bg-[#101010] m-2 rounded-2xl  w-[90vw] md:w-[92vw] md:h-auto border border-gray-200 border-opacity-25 flex flex-col items-center text-[#F5FEFD]">
+      <motion.h2 
+        className="text-3xl font-mono mt-8 mb-8 font-extrabold"
+        whileHover={{ scale: 1.2, rotate: 3, color: "#9A616D", textDecoration: "underline" }}
+        transition={{ duration: 0.3 }}
+      >
+        Skills
+      </motion.h2>
+        <div className="flex flex-col md:flex-row w-full h-auto items-center mb-8 md:items-start md:justify-evenly text-xs md:text-justify font-thin p-4">
           <motion.div
-            className="flex flex-col items-center w-80 md:w-56 h-[30vh] bg-slate-100 mb-6 rounded-xl text-slate-950 p-4"
+            className="flex flex-col items-center w-80 md:w-56 md:h-[22vh] bg-[#F5FEFD] mb-6 rounded-xl text-slate-950 p-4"
             whileHover={{ scale: 1.05 }}
             transition={{ duration: 0.3, type: "spring", stiffness: 300 }}
           >
@@ -53,7 +57,7 @@ const Skills = () => {
             </span>
           </motion.div>
           <motion.div
-            className="flex flex-col items-center w-80 md:w-56 h-[30vh] bg-slate-100 mb-6 rounded-xl text-slate-950 p-4"
+            className="flex flex-col items-center w-80 md:w-56 md:h-[22vh] bg-[#F5FEFD] mb-6 rounded-xl text-slate-950 p-4"
             whileHover={{ scale: 1.05 }}
             transition={{ duration: 0.3, type: "spring", stiffness: 300 }}
           >
@@ -70,7 +74,7 @@ const Skills = () => {
             </span>
           </motion.div>
           <motion.div
-            className="flex flex-col items-center w-80 md:w-56 h-[30vh] bg-slate-100 mb-6 rounded-xl text-slate-950 p-4"
+            className="flex flex-col items-center w-80 md:w-56 md:h-[22vh] bg-[#F5FEFD] mb-6 rounded-xl text-slate-950 p-4"
             whileHover={{ scale: 1.05 }}
             transition={{ duration: 0.3, type: "spring", stiffness: 300 }}
           >
