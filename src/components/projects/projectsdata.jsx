@@ -13,7 +13,7 @@ const projectsdata = [
     description: "Description of project 1.",
     image: Work1,
     technologies: ["React", "Node.js", "MongoDB"],
-    liveLink: "https://example.com/live",
+    liveLink: "https://vaibhavpersonal.netlify.app/",
     githubLink: "https://github.com/example/project1"
   },
   {
@@ -22,7 +22,7 @@ const projectsdata = [
     description: "Description of project 2.",
     image: Work2,
     technologies: ["Vue.js", "Express", "Firebase"],
-    liveLink: "https://example.com/live",
+    liveLink:"https://vaibhavchat.netlify.app/",
     githubLink: "https://github.com/example/project2"
   },
   {
@@ -31,7 +31,7 @@ const projectsdata = [
     description: "Description of project 3.",
     image: Work3,
     technologies: ["Angular", "ASP.NET Core", "SQL Server"],
-    liveLink: "https://example.com/live",
+    liveLink: "https://vaibhavweather.netlify.app/",
     githubLink: "https://github.com/example/project3"
   },
   {
@@ -40,7 +40,7 @@ const projectsdata = [
     description: "Description of project 4.",
     image: Work4,
     technologies: ["React", "Node.js", "MongoDB"],
-    liveLink: "https://example.com/live",
+    liveLink: "https://vaibhavphotography.netlify.app/",
     githubLink: "https://github.com/example/project4"
   },
   {
@@ -49,7 +49,7 @@ const projectsdata = [
     description: "Description of project 5.",
     image: Work5,
     technologies: ["Vue.js", "Express", "Firebase"],
-    liveLink: "https://example.com/live",
+    liveLink: "https://vaibhavclock.netlify.app/",
     githubLink: "https://github.com/example/project5"
   },
   {
@@ -58,7 +58,7 @@ const projectsdata = [
     description: "Description of project 6.",
     image: Work6,
     technologies: ["Angular", "ASP.NET Core", "SQL Server"],
-    liveLink: "https://example.com/live",
+    liveLink: "https://leetcode.com/Empire200/",
     githubLink: "https://github.com/example/project6"
   },
   {
@@ -67,7 +67,7 @@ const projectsdata = [
     description: "Description of project 7.",
     image: Work7,
     technologies: ["React", "Node.js", "MongoDB"],
-    liveLink: "https://example.com/live",
+    liveLink:"https://auth.geeksforgeeks.org/user/vaibhavkumar9693/practice/",
     githubLink: "https://github.com/example/project7"
   },
   // Add more projects as needed
